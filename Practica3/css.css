@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu *{ list-style: none; }
+
+.menu li>ul{ display: none;}
+
+.menu>li{ float: left;
+}
+
+.menu>li a:hover{ background-color: crimson;}
+
+.menu li:hover>ul{
+    display: block;
+    position: relative;
+}
+
+li{
+    min-height: 38px;
+    min-width: 140px;}
+
+.menu li>ul>li>ul{
+    left: 140px;
+    top: -43px;
+    position: absolute;
+}
+
+.menu>li a{
+    background-color: red;
+    text-align: center;
+    font-family:fantasy;
+    padding: 10px;
+    color: black;
+    display: block;
+border: 2px solid black;}

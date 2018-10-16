@@ -1,0 +1,189 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.contenidor{
+    width: 100%;
+    height: 990px;
+    background-color: antiquewhite;
+
+}
+
+.titol {
+    width: 100%;
+    height: 10%;
+    background-color:aquamarine;
+    position: relative;
+    ALIGN
+
+}
+
+.rodones {
+
+    width: 35%;
+    height: 50%;
+    background-color: aqua;
+    position: absolute;
+    right: 20px;
+    top: 25%;
+
+}
+
+.rodonesEst {
+    width: 15%;
+     height: 100%;
+     border-radius: 50%;
+    background-color: black;
+    float:right;
+    margin-right: 5%;
+    margin-left: 5%;
+
+
+}
+
+.tot {
+    width: 100%;
+    height: 80%;
+    background-color: burlywood;
+     position: relative;
+}
+
+.dreta{
+     width: 75%;
+    height: 100%;
+    background-color: skyblue;
+    float: right;
+}
+
+.esquerra{
+
+    width: 25%;
+    height: 100%;
+    background-color:deepskyblue;
+    float: right;
+}
+
+.esquerraSuperior {
+
+    width: 100%;
+    height: 50%;
+    background-color: dimgray;
+
+}
+
+.menus {
+     width: 99%;
+    height: 19%;
+    background-color: floralwhite;
+   border: blue 2px solid;
+}
+
+
+.esquerraInferior{
+    width: 100%;
+    height: 50%;
+    background-color:darkgrey;
+     position: relative;
+}
+
+.menus:hover{
+
+    background-color:darkturquoise
+}
+
+.menuLlarg{
+    width: 93%;
+    height: 94%;
+    position: absolute;
+   padding: 1,5%;
+    margin: 3%;
+     background-color:blue;
+
+
+}
+
+.dretaAdalt {
+    width: 100%;
+    height: 50%;
+
+    position: relative;
+}
+
+.dretaAbaix {
+    width: 100%;
+    height: 50%;
+     background-color:bisque;
+}
+
+.quadrat1 {
+
+    width: 44%;
+    height: 75%;
+    position: absolute;
+
+    margin-top: 4%;
+    margin-left: 5%;
+
+}
+
+.quadrat2{
+
+     width: 44%;
+    height: 75%;
+    position: absolute;
+
+   margin-top: 4%;
+    right: 5%;
+
+
+}
+
+.quadrat3{
+    width: 70%;
+    height: 40%;
+    position: absolute;
+    margin-top: 2%;
+ float: left;
+margin-left: 3%;
+
+
+
+}
+.menuLlarg:hover{
+
+    background-color:darkturquoise
+}
+
+.footer{
+
+    width: 100%;
+    height: 10%;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.footer1{
+
+    width: 30%;
+    height: 90%;
+    position: absolute;
+    background-color:azure;
+    top: 5%;
+}
+
+#fid_1{
+
+    left:2.5%;
+}
+
+#fid_2{
+
+    left:35%;
+}
+
+#fid_3{
+
+    left:67.5%;
+}

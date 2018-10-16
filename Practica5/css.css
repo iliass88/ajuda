@@ -1,0 +1,113 @@
+div#contenidor{
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+div#foto{
+    width: 600px;
+    height: 300px;
+    background-image: url(imatges/mar.jpg);
+    border: 4px solid black;
+}
+div#info{
+    width: 600px;
+    height: 300px;
+    background-color:skyblue;
+    visibility: hidden;
+    opacity: 0;
+}
+div#foto:hover #info{
+    visibility: visible;
+    opacity: 1;
+}
+div#info>#titul{
+    height: 15px;
+    width: 150px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    color: floralwhite;
+}
+div#text{
+    height: 120px;
+    text-align:left;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 55px;
+    color: aliceblue;
+
+}
+div#boto{
+    width: 35px;
+    height: 50px;
+    float: right;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 500px;
+    color: red;
+    border-radius: 55px 55px 50px;
+    background-color: yellow;
+}
+div#boto:hover{
+    color: black;
+    background-color:orangered;
+    cursor:pointer;
+}
+
+/* -----------------------------------------------  2N ------------------------------------------------------ --> */
+
+div#foto1{
+    width: 600px;
+    height: 300px;
+    background-image: url(imatges/space.jpg);
+    border: 4px solid blueviolet;
+
+}
+div#info1{
+    width: 600px;
+    height: 300px;
+    background-color:black;
+    visibility: hidden;
+    opacity: 0;
+}
+div#foto1:hover #info1{
+    visibility: visible;
+    opacity: 1;
+}
+div#info1>#titul1{
+    height: 15px;
+    width: 150px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    color: floralwhite;
+}
+div#text1{
+    height: 120px;
+    text-align:left;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 55px;
+    color: white;
+
+}
+div#boto1{
+    width: 33px;
+    height: 50px;
+    float: right;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 500px;
+    color: black;
+    border-radius: 80px 5px 80px;
+    background-color: white;
+}
+div#boto1:hover{
+    color: black;
+    background-color: blueviolet;
+    cursor:pointer;
+}
+
+

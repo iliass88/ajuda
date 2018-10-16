@@ -1,0 +1,48 @@
+html{
+
+    background-color: #8e0012;
+    text-align: center;
+
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 50px;
+    border-radius:30px;
+
+}
+
+#menu{
+    font-weight: bold;
+}
+
+.par{
+  font-family: impact;
+
+  color: #c9515f;
+  font-size: 15px;
+
+}
+
+h1 {
+
+    text-decoration-line:underline;
+}
+
+h1{
+    color: #8e0012;
+    font-family: impact;
+     font-size: 70px;
+    text-shadow: 1px 1px 1px;
+}
+
+h4 {
+    color: #861523;
+    font-family: impact;
+    font-size: 30px;
+    box-shadow:#8e0012 1px 1px 67px;
+}
+h3 {
+    background-color: #8e0012;
+
+}
