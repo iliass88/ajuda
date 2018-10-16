@@ -111,3 +111,22 @@ div#boto1:hover{
 }
 
 
+.boton_personalizado{
+
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 6px;
+    border: 3px solid grey;
+
+    }
+  .boton_personalizado:hover{
+    color: black;
+    background-color: dimgrey;
+  }
+
+
+
