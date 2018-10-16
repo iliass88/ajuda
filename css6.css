@@ -6,19 +6,42 @@
 
 .pare{
     width: 100%;
-    height: 970px;
-    background-color: black;
+    height: 990px;
+    background-image: url(imatges/1.jpg);
 
 }
 
 
 .titol {
-    width: 100%;
-    height: 10%;
+    width: 80%;
+    height: 8%;
+    margin-left: 10%;
     background-color:aquamarine;
     position: relative;
     text-align: center;
     font-size: 30px;
+
+}
+
+.cos{
+
+    width: 80%;
+    height: 80%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: aqua;
+}
+
+.footer {
+
+     width: 80%;
+    height: 8%;
+    margin-left: 10%;
+    background-color:aquamarine;
+    position: relative;
+
 
 
 }
