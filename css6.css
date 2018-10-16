@@ -1,5 +1,24 @@
 * {
 
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
+}
+
+.pare{
+    width: 100%;
+    height: 970px;
+    background-color: black;
+
+}
+
+
+.titol {
+    width: 100%;
+    height: 10%;
+    background-color:aquamarine;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+
+
 }
