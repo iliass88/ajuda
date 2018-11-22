@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.contenidor {
+    margin: 15px;
+    width: 350px;
+    height: 300px;
+
+    overflow: hidden;
+    float: left;
+    box-shadow: 5px 3px 10px;
+}
+
+.cartell {
+    width: 350px;
+    height: 300px;
+
+    overflow: hidden;
+
+}
+
+.info {
+    width: 350px;
+    height: 0px;
+    background-image: url(imatge/fons1.png);
+    overflow: hidden;
+}
+
+.imag {
+    display: block;
+    margin: 80px auto;
+    width: 145px;
+    height: 145px;
+
+}
+
+p.titul {
+    margin: 5px;
+    font-size: 1.1em;
+    color: black;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+p.mest {
+    color: black;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.linc {
+    float: right;
+    margin-top: -30px;
+    margin-right: 10px;
+    padding: 10px 30px;
+    background-color: darkslategray;
+    font-size: .8em;
+    color: darkgray;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.contenidor:hover .cartell {
+    height: 210px;
+}
+
+.contenidor:hover .info {
+    height: 90px;
+    transition: height 1.5s;
+}
+
+.contenidor:hover .imag {
+    margin: 30px auto;
+    transition:  margin 1.5s;
+}
+
+.cos{
+    height: 660px;
+    width: 1145px;
+
+    position: absolute;
+    margin-top: 150px;
+
+}
+
+.adalt{
+    width: 62.5%;
+    height: 10%;
+    position: absolute;
+
+
+    box-shadow: 6px 1px 96px;
+
+text-align: center;
+    font-size: 70px;
+    text-decoration: none;
+    text-decoration-style: solid;
+    text-shadow: 30px 10px 20px;
+
+
+}
+.tot{
+     width: 1835px;
+    height: 994px;
+
+    position: relative;
+}
+
+.contingut{
+    height: 1000px;
+    width: 1145px;
+    margin: 0 auto;
+
+}
+
+.foter {
+    width: 1145px;
+    height: 10%;
+    margin-top: 850px;
+    position: absolute;
+     box-shadow: 6px 1px 96px;
+
+}
+
+.imaggg {
+
+    margin-top: -80px
+}
+
+.boton_personalizado{
+
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 6px;
+     border: 3px solid grey;
+    margin-right: 650px;
+    }
+  .boton_personalizado:hover{
+    color: black;
+    background-color: dimgrey;
+  }
+
